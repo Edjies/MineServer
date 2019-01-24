@@ -21,7 +21,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 DESC="uwsgi daemon"
 NAME=uwsgi
 DAEMON=/usr/bin/uwsgi
-CONFIGFILE=/root/phb/MineServer/$NAME.ini
+CONFIGFILE=/home/phb/MineServer/$NAME.ini
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/uwsgid
 
