@@ -17,10 +17,10 @@
 # Author:   licess
 # website:  http://lnmp.org
 
-PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/.pyenv/shims
 DESC="uwsgi daemon"
 NAME=uwsgi
-DAEMON=/usr/bin/uwsgi
+DAEMON=/root/.pyenv/shims/uwsgi
 CONFIGFILE=/home/phb/MineServer/$NAME.ini
 PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/uwsgid
